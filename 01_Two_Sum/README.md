@@ -10,7 +10,7 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].)
 
 ## My solutions:
 ## Brute force approach:
-```
+```python
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
       for i in range(len(nums)):
@@ -23,7 +23,8 @@ This was the solution I came up first thinking simply about using the loops(nest
 
 But the optimal solution can be obtained through the use of hashmaps (dictionaries).
 ## Optimal solution (Using hashmaps):
-```class Solution:
+```python
+class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
        seen = {} # creating a empty hashmap containing val: index
 
