@@ -1,6 +1,6 @@
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
-        if not nums:     #checking for empty inputs     
+        if not nums:      
             return 0
 
         i = 0     
