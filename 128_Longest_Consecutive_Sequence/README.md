@@ -1,4 +1,4 @@
-# LONGEST CONSECUTIVE SEQUENCE
+# LONGEST CONSECUTIVE SEQUENCE (`MEDIUM`)
 ## QUESTION:
 Given an unsorted array of integers `nums`, return the `length` of the `longest consecutive` elements sequence.  
 
